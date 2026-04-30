@@ -3,6 +3,6 @@ kind: Pod
 metadata:
   name: error-test
 spec:
-  conatiners:
+  container:
   - name: nginx
     image: nginxyz
