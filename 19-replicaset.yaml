@@ -1,4 +1,4 @@
-apiVersion: v1
+apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
   name: nginx
@@ -16,7 +16,7 @@ spec:
       labels:
         purpose: re-demo
         project: roboshop
-spec:
-  containers:
-  - name: nginx
-    image: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
