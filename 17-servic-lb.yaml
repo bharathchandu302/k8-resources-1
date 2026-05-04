@@ -8,9 +8,9 @@ spec:
     project: roboshop
     component: frontend
     environment: dev
-    urpose: load-balancer 
+    purpose: load-balancer 
   ports:
     - protocol: TCP
       port: 80
-      targetport: 80
+      targetPort: 80
       nodePort: 30753
